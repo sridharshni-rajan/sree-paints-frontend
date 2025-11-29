@@ -1,0 +1,27 @@
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.enlarge-on-load {
+  transform: scale(0.95); 
+  animation: enlarge 0.5s ease-out forwards; 
+}
+
+@keyframes enlarge {
+  to {
+    transform: scale(1); 
+  }
+}

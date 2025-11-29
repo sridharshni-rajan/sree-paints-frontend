@@ -132,6 +132,7 @@ function Contact() {
             >
                 <Typography
                     variant="h2"
+                    className="fade-in-up"
                     sx={{
                         color: "#fff",
                         fontFamily: "Playfair Display",

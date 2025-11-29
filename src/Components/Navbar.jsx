@@ -18,7 +18,7 @@ function Navbar() {
     { label: "Home", path: "/" },
     { label: "About Us", path: "/about-us" },
     { label: "Products", path: "/products" },
-    { label: "Color Gallery", path: "/color-gallery" },
+   // { label: "Color Gallery", path: "/color-gallery" },
     { label: "Contact", path: "/contact" },
   ];
 

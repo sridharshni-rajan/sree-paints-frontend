@@ -35,6 +35,7 @@ function Home() {
         >
           <Typography
             variant="h2"
+            className="fade-in-up"
             sx={{
               fontFamily: "Playfair Display",
               fontWeight: 700,
@@ -51,6 +52,7 @@ function Home() {
 
           <Typography
             variant="h6"
+            className="fade-in-up"
             sx={{  
               width: "100%",
               margin: "0 auto",
@@ -68,6 +70,7 @@ function Home() {
             <Button
               component={Link}
               to="/products"
+              className="enlarge-on-load"
               sx={{
                 fontWeight: 500,
                 fontSize: "0.875rem",
