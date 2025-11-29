@@ -43,6 +43,7 @@ function About() {
             >
                 <Typography
                 variant="h3"
+                className="fade-in-up"
                 sx={{
                     textAlign: "center",
                     mt: 15,
@@ -56,6 +57,7 @@ function About() {
                    About Sree Paints
                 </Typography>
                 <Typography
+                    className="fade-in-up"
                     sx={{  
                     width: { xs: "80%", md: "60%" },
                     margin: "0 auto",
