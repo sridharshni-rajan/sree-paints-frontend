@@ -291,7 +291,6 @@ function About() {
                           color: "#1E2a47",
                           mb:{ xs: "1rem", md: "1rem" },
                           width: { xs: "95%", md: "98%" },
-                          width: "100%"
                     }}
               >
                 Our Core Values

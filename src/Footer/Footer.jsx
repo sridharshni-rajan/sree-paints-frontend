@@ -158,7 +158,7 @@ function Footer() {
           </Typography>
 
           <Stack spacing={1.5}>
-            {["Home", "Products", "Color Gallery", "About Us"].map((text) => (
+            {["Home", "Products", "About Us"].map((text) => (
               <Typography
                 key={text}
                 sx={{
@@ -174,10 +174,7 @@ function Footer() {
                   } else if (text === "Products") {
                     history("/products");
                     window.scrollTo({ top: 0, behavior: "smooth" });
-                  } else if (text === "Color Gallery") {
-                    history("/color-gallery");
-                    window.scrollTo({ top: 0, behavior: "smooth" });
-                  } else if (text === "About Us") {
+                  }  else if (text === "About Us") {
                     history("/about-us");
                     window.scrollTo({ top: 0, behavior: "smooth" });
                   }
