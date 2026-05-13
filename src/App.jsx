@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Footer from './Footer/Footer';
 import Contact from './Components/Contact/Contact';
 import Product from './pages/product';
-import ScrollToTop from './Components/ScrollToTop';
+import ScrollToTop from './Components/ScrollTop';
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ReactGA from "./analytics";
@@ -20,7 +20,7 @@ function AnalyticsTracker() {
       hitType: "pageview",
       page: location.pathname,
     });
-  }, [location]);
+  }, [location.pathname]);
 
   return null;
 }
