@@ -272,27 +272,32 @@ function Product() {
 
           <Grid 
           container 
-          spacing={3} 
+          spacing={5} 
           justifyContent="center"
           sx={{
-              px: { xs: 0, md: 1 },
-              textAlign: "left",
+              px: { xs: 2, md: 1 },
           }}>
           {products.map((product, index) => (
             <Grid item xs={12} md={6} key={index}>
               <Card
                 elevation={0}
                 sx={{
-                  ml: { xs:0, sm:-6, md: 8, lg: 0 }, 
-                  p: { xs: 5, md: 5 },
+                  width: "100%",
+                  maxWidth: { xs: "100%", sm: "600px", md: "550px" },
+
+                  mx: "auto",
+
+                  p: { xs: 3, md: 5 },
+
                   borderRadius: "15px",
                   overflow: "hidden",
                   border: "1px solid rgba(0,0,0,0.08)",
-                  width: { xs: "93.5%", sm: "600px", md:"550px" },
-                  height: { xs: "100%", md: "100%" },
+
                   transition: "all 0.4s ease",
+
                   background:
                     "linear-gradient(to bottom, #ffffff, #fafafa)",
+
                   "&:hover": {
                     transform: "translateY(-10px)",
                     boxShadow: "0 20px 40px rgba(0,0,0,0.12)",
@@ -373,7 +378,7 @@ function Product() {
                       fontFamily: "Playfair Display",
                       fontWeight: 700,
                       color: "#1e293b",
-                      fontSize: {xs: "1.6rem", md: "1.8rem"},
+                      fontSize: {xs: "1.6rem", md: "1.6rem"},
                       mb: 1,
                       lineHeight: 1.2,
                       textAlign: "center",
